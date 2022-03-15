@@ -20,6 +20,7 @@ Pull requests are welcome.
 
 ## Future
 Nothing planned, considering looking into using `GraphQL` to create static pages.
+But with the ability to tie into the world of MS and all the dll's one could hope for, the world is your oyster.
 
 ## References
 - https://powershell.one/tricks/filesystem/filesystemwatcher
