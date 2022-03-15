@@ -9,7 +9,7 @@ It runs in a continuous loop with a file watcher, so as you make changes to the 
 
 ## Installation
 
-Snag this repo (download or clone it).
+[Snag this repo](https://github.com/vandsh/powerdown) (download or clone it).
 
 ## Usage
 
