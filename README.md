@@ -1,5 +1,7 @@
 # PowerDown (>'-')>
 
+See the [generated html here](/output/README.html)
+
 PowerDown is a super boring and straightforward static site generator written in `PowerShell`.
 It copies content from one folder (`$contentFolder`) to an output folder (`$outputFolder`).
 It also recognizes [`markdown`](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-markdown?view=powershell-7.2) files and generates `html` files.
