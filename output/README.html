@@ -1,0 +1,21 @@
+<!doctype html> <html lang="en">  <head>     <meta charset="UTF-8">     <title>PowerDown</title>     <!-- Credit to mardowncss: https://github.com/markdowncss/retro/blob/master/index.html -->     <link rel="stylesheet" href="assets/site.css"> </head>  <body>     <h1 id="powerdown">PowerDown (&gt;'-')&gt;</h1>
+<p>PowerDown is a super boring and straightforward static site generator written in <code>PowerShell</code>.
+It copies content from one folder (<code>$contentFolder</code>) to an output folder (<code>$outputFolder</code>).
+It also recognizes <a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-markdown?view=powershell-7.2"><code>markdown</code></a> files and generates <code>html</code> files.
+It runs in a continuous loop with a file watcher, so as you make changes to the <code>content</code> folder, they will be copied over.</p>
+<h2 id="installation">Installation</h2>
+<p>Snag this repo (download or clone it).</p>
+<h2 id="usage">Usage</h2>
+<ul>
+<li>Open <code>powerdown.ps1</code> and update any necessary values (namely <code>outputFolder</code> and <code>contentFolder</code>)</li>
+<li>Change <code>template.html</code> to your liking</li>
+<li>Run <code>powerdown.ps1</code></li>
+</ul>
+<h2 id="contributing">Contributing</h2>
+<p>Pull requests are welcome.</p>
+<h2 id="thanks-to">Thanks to</h2>
+<ul>
+<li><a href="https://powershell.one/tricks/filesystem/filesystemwatcher">https://powershell.one/tricks/filesystem/filesystemwatcher</a></li>
+<li><a href="https://github.com/markdowncss/retro/blob/master/index.html">https://github.com/markdowncss/retro/blob/master/index.html</a></li>
+</ul>
+ </body>  </html>
