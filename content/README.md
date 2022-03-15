@@ -21,6 +21,6 @@ Pull requests are welcome.
 ## Future
 Nothing planned, considering looking into using `GraphQL` to create static pages.
 
-## Thanks to
+## References
 - https://powershell.one/tricks/filesystem/filesystemwatcher
 - https://github.com/markdowncss/retro/blob/master/index.html
